@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,7 +13,7 @@
 <body class="hold-transition login-page">
   <div class="login-box">
     <div class="image">
-      <img src="{{ asset('img/polinema.png') }}" class="mx-auto d-block">
+      <img src="{{ asset('img/Polinema.png') }}" class="mx-auto d-block">
     </div>
     <br>
     <div class="login-logo">
@@ -26,5 +27,5 @@
   <script src="{{asset('lte/dist/js/adminlte.min.js')}}"></script>
 
 </body>
-</html>
 
+</html>
