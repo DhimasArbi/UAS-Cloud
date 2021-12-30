@@ -18,17 +18,17 @@ class UserSeeder extends Seeder
     public function run()
     {
         $user = User::create([
-        	'name' => 'Dhimas Arbi',
-            'username' => 'arbi',
-            'email' => 'dhimas.arbi@gmail.com',
-            'password' => Hash::make('arbi')
+            'name' => 'Pew',
+            'username' => 'pew',
+            'email' => 'pew@gmail.com',
+            'password' => Hash::make('qwe12345')
         ]);
         $role = Role::create(['name' => 'User']);
-     
-        $permissions = Permission::pluck('id','id')->all();
-   
+
+        $permissions = Permission::pluck('id', 'id')->all();
+
         $role->syncPermissions($permissions);
-     
+
         $user->assignRole([$role->id]);
     }
 }

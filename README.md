@@ -20,12 +20,19 @@
 
 > http://152.69.210.35:8090/
 
+### Login Detail
+
+| Username | Password | Role       |
+| -------- | -------- | ---------- |
+| admin    | admin    | admin      |
+| pew      | qwe1234  | user biasa |
+
 ### Screenshots
 
-- ![Beranda](Screenshots/S1.png)
-- ![Data Kerjasama](Screenshots/S2.png)
-- ![Data User](Screenshots/S3.png)
-- ![Tambah Kerjasama](Screenshots/S4.png)
-- ![Edit Data Kerjasama](Screenshots/S5.png)
-- ![Notifikasi](Screenshots/S6.png)
-- ![Login](Screenshots/S0.png)
+- ![Beranda](Screenshots/s1.png)
+- ![Data Kerjasama](Screenshots/s2.png)
+- ![Data User](Screenshots/s3.png)
+- ![Tambah Kerjasama](Screenshots/s4.png)
+- ![Edit Data Kerjasama](Screenshots/s5.png)
+- ![Notifikasi](Screenshots/s6.png)
+- ![Login](Screenshots/s0.png)
